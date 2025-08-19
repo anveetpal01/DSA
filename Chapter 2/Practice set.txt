@@ -1,1 +1,68 @@
+Q1. Multiple Choice Questions.
+1. Ans - free of ambiguity.
+2. Ans - A problem is subdivided in subproblems
+3. Ans - both a & b
+4. Ans - O(logN)
+5. Ans - Recursion involves entering an existing block.
+
+
+Q2. Fill in the blanks.
+1. one
+2. Modular
+3. Stack
+4. recurrence relation.
+
+Q3. True or False
+1. False
+2. True
+3. False
+4. True
+5. True
+
+Q4. Descriptive Qeustions.
+1. Define Software Engineering.
+Ans. - Software Engineering is the theory and practice of methods helpful for the construction and maintenance of large software systems.
+- Development of a good software is tedious process which is done with the help of SDLC(Software Development Life Cycle).
+
+2. Define algorithm and design an algorithm to find out the number of even and odd numbers in a list of 100 numbers.
+Ans. - An algorithm is a step by step procedure to solve a problem efficiently.
+- An algorithm should be efficient, consice, compact and free of ambiguity.
+- An algorithm refers to the sequence of instructions that must be followed to solve a problem.
+- An alogorithm is a logical representation of the instructions which should be executed to perform a meaningful task.
+- EVEN ODD ALGORITHM
+int n = 100
+for(int i=1; i<=n; i++){
+  if(i%2==0)
+    printf("Number is even")
+  else
+    printf("Number is odd")
+}
+
+3. Explain different ways of analyzing algorithm.
+Ans. - An algorithm can be analyzed on the basis of its complexities.
+- Analysis of algorithm focuses on computation of space and time complexity. Space can be defined in terms of space required to store the instruction and data whereas the time is the computer time an algorithm might require for its execution.
+- There are three different types of time complexities which can be analyzed for an algorithm.
+ * Best case *Average case *Worst case / big Oh [O()]
+
+4. Explain the structured approach to programming.
+Ans. - Structured programming is a subset of software engineering. It is a method for designing and coding programs in a systematic, organized manner.
+- The emphasis of structured programming is mainly on the technical aspects of programming.
+- The term 'structured programming' was coined by Dijkstra in the article 'Structured Programming'.
+ - Wirth Dijkstra has defined program as the concatenation of algorithm and data structure[ Program = algorithm + data structure].
+
+5. What is the need of stack in implementing a recursive function.
+Ans. - A recursive function is one that calls itself in its own definition. In such a process, each call to the recursive funciton must remember where it left off so that after completing the recursive call, it can resume correctly. This remembering is done using stack.
+- Stack is essential in recursion because it keeps track of active function calls, their return points, and local data, enabling the recursive procedure (like stack printing for factorial calculation) to work correctly. 
+
+
+
+
+
+
+
+
+
+
+
+
 
